@@ -1,0 +1,83 @@
+#fercakflorian{
+  margin-top: 3%;
+  background-color: #0C356A;
+}
+
+#nom-prenom{
+  color: #0d6efd;
+  font-size: 4em;
+}
+
+#btn-contact{
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #0C356A;
+  border: solid 2px whitesmoke;
+  font-size: 2em;
+  margin-top: 15%;
+  font-weight: 300;
+  border-radius: 50px;
+  padding-left: 4%;
+  padding-right: 4% ;
+}
+
+#btn-contact:hover{
+  background-color: #FFC436;
+  border: solid 2px #FFC436;
+  color:whitesmoke;
+  font-weight: 300;
+}
+
+#metier{
+  color: whitesmoke;
+  font-size: 2em;
+}
+
+#parcours{
+  
+}
+
+.mot-important{
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+#competences{
+  color: whitesmoke;
+  background-color: #0C356A;
+}
+
+.barre-back-end{
+  background-color: #2bbfc9;
+}
+
+#portfolio{  
+  background-color: whitesmoke;
+}
+
+#retoursclient{
+  
+}
+
+#contact{
+
+}
+
+.footer-text{
+  font-size: 0.8em;
+}
+
+
+
+/* Personnalisation des boutons (flèches) du carousel*/
+.carousel-control-next, .carousel-control-prev {
+  background-color: lightgray; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  width: 50px;
+}
+
+/* Hover effect sur les boutons (flèches) */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: grey; /* Nouvelle couleur de fond au survol */
+}
