@@ -34,10 +34,6 @@
   font-size: 2em;
 }
 
-#parcours{
-  
-}
-
 .mot-important{
   color: #0d6efd;
   font-weight: 600;
@@ -56,18 +52,9 @@
   background-color: whitesmoke;
 }
 
-#retoursclient{
-  
-}
-
-#contact{
-
-}
-
 .footer-text{
   font-size: 0.8em;
 }
-
 
 
 /* Personnalisation des boutons (flèches) du carousel*/
