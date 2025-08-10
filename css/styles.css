@@ -57,14 +57,108 @@
 }
 
 
-/* Personnalisation des boutons (flèches) du carousel*/
-.carousel-control-next, .carousel-control-prev {
-  background-color: lightgray; /* Couleur de fond */
-  color: #fff; /* Couleur du texte */
-  width: 50px;
+/* Styles pour la section témoignage */
+.testimonial-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
+  overflow: hidden;
 }
 
-/* Hover effect sur les boutons (flèches) */
-.carousel-control-prev:hover, .carousel-control-next:hover {
-  background-color: grey; /* Nouvelle couleur de fond au survol */
+.section-title {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 300;
+}
+
+.highlight-badge {
+  background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(240, 147, 251, 0.4);
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.intro-text {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 3rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 2;
+}
+
+.quote-icon {
+  font-size: 3rem;
+  color: #667eea;
+  opacity: 0.3;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.testimonial-text {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  font-style: italic;
+  padding: 20px 0;
+  position: relative;
+  z-index: 3;
+}
+
+.client-signature {
+  border-top: 2px solid #667eea;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.testimonial-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.stat-item {
+  text-align: center;
+}
+    
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #667eea;
+}
+    
+.stat-label {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  text-transform: uppercase;
+}
+
+.client-name {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.client-title {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-style: normal;
 }
