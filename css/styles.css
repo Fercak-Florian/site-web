@@ -8,6 +8,10 @@
   font-size: 4em;
 }
 
+#tech-stack{
+  color: whitesmoke;
+}
+
 #btn-contact{
   display: inline-block;
   text-decoration: none;
